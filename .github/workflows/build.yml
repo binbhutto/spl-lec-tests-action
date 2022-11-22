@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: 
+        run: |
           cd $GITHUB_WORKSPACE
       - name: Run Tests
         run: python -m unittest tests/*.py
