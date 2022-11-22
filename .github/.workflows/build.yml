@@ -1,0 +1,10 @@
+name: Test
+on: [Push]
+jobs:
+  on_build_actions:
+    runs-on: ubuntu-latest
+    steps:
+      run: 
+        cd $GITHUB_WORKSPACE
+    - name: Run Tests
+      run: python -m unittest tests/*.py
