@@ -18,6 +18,4 @@ class TestCSVPrinter(unittest.TestCase):
         with self.assertRaises(Exception):
             printer = CSVPrinter("tests/samle.csv")
             printer.read()
-
-
-            
+                        
