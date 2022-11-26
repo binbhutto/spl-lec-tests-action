@@ -6,7 +6,6 @@ import collections
 
 PriceEvent = collections.namedtuple("PriceEvent", ["timestamp", "price"])
 
-#TODO: Need to add some new methods to generalize the stock options.
 class Stock:
     """The Stock class"""
     def __init__(self, symbol):

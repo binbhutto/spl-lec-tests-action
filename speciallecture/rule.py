@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Price Rule"""
 
-#FIXME: Get rid of redundant comments and make the code more expressive.
 class PriceRule:
     """PriceRule is a rule that triggers when a stock price
     satisfies a condition (usually greater, equal or lesser
